@@ -1,0 +1,25 @@
+# C bersarang
+
+# kakulator sederhana
+print(20*"=")
+print("kakulator sederhana")
+print(20*"=")
+
+angka_1 = float(input("masukan angka ke_1 = "))
+operator = input("oerator (+,-) = ")
+angka_2 = float(input("masukan angka ke-2 = "))
+
+# percabangan 
+if operator == '+':
+    hasil = angka_1 + angka_2
+    print(f"hasilnya adalah = (hasil)")
+elif operator == '+':
+    hasil = angka_1 - angka_2
+    print(f"hasilnya adalah =(hasil)")
+else :
+    print("tolong masukan angka dan operator yang benar")   
+
+
+
+
+
